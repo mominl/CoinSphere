@@ -1,0 +1,10 @@
+[package]
+name = "CoinTransfer"
+version = "1.0.0"
+authors = ["CoinSphere"]
+
+[addresses]
+coin_transfer = "0xd4857925fb9b87b9a58d09acb2d8fb4a3f0cdf90d55abc3d67732d86ed2e1bdf"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
